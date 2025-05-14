@@ -1,0 +1,89 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.main{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 320px;
+    height: 499px;
+}
+
+.qr-code-wrapper {
+    margin: 16px ;
+    margin-bottom: 24px;
+    width: 288px;
+    height: 288px;
+    background-color: #2C7DFA;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oval-1 {
+    position: absolute;
+
+    width: 328px;
+    height: 328px;
+
+    background-color: #3685FF;
+    border-radius: 50%;
+
+    top: -164px;
+    left: -100px;
+}
+
+.oval-2 {
+    position: absolute;
+
+    width: 270px;
+    height: 270px;
+
+    background-color: #3685FF;
+    border-radius: 50%;
+
+    bottom: -180px;
+    right: -100px;
+}
+
+.qr-code {
+    width: 160px;
+    height: 160px;
+
+    background-image: url(./images/qr-code.png);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    z-index: 1;
+}
+
+.description {
+    width: 288px;
+    margin: 16px;
+}
+
+.description h2 {
+    color: hsl(218, 44%, 22%) ;
+    text-align: center;
+    margin: 0
+}
+
+.description p {
+    color: hsl(216, 15%, 48%);
+    text-align: center;
+    font-size: larger;
+}
+
+.attribution { font-size: 11px; text-align: center; margin: 20px;}
+.attribution a { color: hsl(228, 45%, 44%);}
