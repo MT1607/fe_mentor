@@ -6,6 +6,9 @@ body{
     flex-direction: column;
     height: 100vh;
     margin: 0;
+
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .main{
