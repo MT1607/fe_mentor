@@ -1,0 +1,167 @@
+body {
+    background: var(--bg-main);
+
+    width: 100vh;
+    height: 100vh;
+
+    margin: 0 auto;
+    
+    color: var(--text-color);
+
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.nav {
+
+    margin-top: 30px;
+    padding: 12px 12px;
+
+    background-color: var(--navbar-bg);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 15px;
+}
+
+.btn-theme {
+    width: 45px;
+    height: 45px;
+
+    border-radius: 10px;
+    border: 1px solid var(--card-border);
+
+    background-color: var(--card-bg);
+
+    cursor: pointer;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.btn-status {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-status button {
+    padding: 8px 15px;
+
+    border-radius: 20px;
+    border: 1px solid var(--card-border);
+    font-size: 16px;
+
+    background-color: var(--bg-btn-status);
+    color: var(--text-color);
+
+    cursor: pointer;
+}
+
+.card-extension {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card {
+    background-color: var(--card-bg);
+
+    border: 1px solid var(--card-border);
+    border-radius: 15px;
+
+    color: var(--text-color);
+
+    padding: 8px 15px;
+}
+
+.card-infor {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.card-infor img {
+    margin: 0;
+}
+
+.card-infor .information h3 {
+    margin: 0;
+}
+
+.card-infor .information p{
+    font-size: 13px;
+
+    margin: 5px 0;
+}
+
+.toggle {
+    margin: 40px 0 10px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-remove {
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+
+    background: var(--bg-btn-remove);
+    color: var(--text-color);
+
+    padding: 8px 13px;
+}
+
+/* BUTTON TOGGLE */
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 20px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: var(--bg-btn-toggle);
+  border-radius: 34px;
+  top: 1px;
+  left: 1px;
+  right: 0px;
+  bottom: 0px;
+  transition: 0.1s;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: #fff;
+  transition: 0.1s;
+  border-radius: 50%;
+}
+
+/* Khi checkbox được check */
+.toggle-switch input:checked + .slider {
+  background-color: var(--bg-btn-toggle-checked);
+}
+
+.toggle-switch input:checked + .slider::before {
+  transform: translateX(15px);
+}
