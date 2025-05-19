@@ -165,3 +165,40 @@ body {
 .toggle-switch input:checked + .slider::before {
   transform: translateX(15px);
 }
+
+/* Responsive  */
+@media (max-width: 938px) {
+
+  body {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 15px 15px 15px;
+  }
+
+  .card-extension {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .btn-group h1 {
+    margin: 0;
+  }
+
+
+  .card {
+    margin-top: 32px;
+  }
+
+  /* .btn-status button {
+    width: 100%;
+    max-width: 200px;
+  } */
+}
