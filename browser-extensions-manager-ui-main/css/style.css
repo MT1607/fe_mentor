@@ -37,6 +37,10 @@ body {
     cursor: pointer;
 }
 
+.btn-theme:hover {
+  background-color: var(--bg-btn-theme-hover);
+}
+
 .btn-group {
     display: flex;
     justify-content: space-between;
@@ -61,6 +65,11 @@ body {
     color: var(--text-color);
 
     cursor: pointer;
+}
+
+.btn-status button:hover {
+  background-color: var(--bg-btn-hover);
+  color: var(--color-text-sub);
 }
 
 .card-extension {
@@ -116,6 +125,13 @@ body {
     color: var(--text-color);
 
     padding: 8px 13px;
+
+    cursor: pointer;
+}
+
+.btn-remove:hover {
+  background-color: var(--bg-btn-remove-hover);
+  color: var(--text-color-sub);
 }
 
 /* BUTTON TOGGLE */

@@ -25,7 +25,10 @@
     --bg-btn-status: var(--neutral-0);
     --bg-btn-remove: var(--neutral-0);
     --bg-btn-toggle: var(--neutral-600);
-    --bg-btn-toggle-checked: var(--red-700); 
+    --bg-btn-toggle-checked: var(--red-700);
+    --bg-btn-remove-hover: var(--red-700);
+    --bg-btn-hover: var(--neutral-100);
+    --bg-btn-theme-hover: var(--neutral-300);
 }
 
 [data-theme="dark"] {
@@ -33,9 +36,13 @@
     --card-bg: var(--neutral-700);
     --card-border: var(--neutral-600);
     --text-color: #ffffff;
+    --text-color-sub: var(--neutral-200);
     --navbar-bg: var(--neutral-700);
     --bg-btn-status: var(--neutral-700);
     --bg-btn-remove: var(--neutral-800);
     --bg-btn-toggle: var(--neutral-600);
     --bg-btn-toggle-checked: var(--red-400); 
+    --bg-btn-remove-hover: var(--red-500);
+    --bg-btn-hover: var(--neutral-600);
+    --bg-btn-theme-hover: var(--neutral-600);
 }

@@ -35,8 +35,8 @@ function changeThemeBtnIcon() {
 
   if (currentSrc.includes("assets/images/icon-sun.svg")) {
     icon.src = "assets/images/icon-moon.svg";
-  } else if (currentSrc.includes("assets/images/icon-sun.svg")) {
-    icon.src = "assets/images/icon-moon.svg";
+  } else if (currentSrc.includes("assets/images/icon-moon.svg")) {
+    icon.src = "assets/images/icon-sun.svg";
   }
 }
   
