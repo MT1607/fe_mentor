@@ -29,6 +29,8 @@
     --bg-btn-remove-hover: var(--red-700);
     --bg-btn-hover: var(--neutral-100);
     --bg-btn-theme-hover: var(--neutral-300);
+    --bg-button-selected: var(--red-700);
+    --color-button-selected: #ffffff;
 }
 
 [data-theme="dark"] {
@@ -45,4 +47,6 @@
     --bg-btn-remove-hover: var(--red-500);
     --bg-btn-hover: var(--neutral-600);
     --bg-btn-theme-hover: var(--neutral-600);
+    --bg-button-selected: var(--red-500);
+    --color-button-selected: #111111;
 }

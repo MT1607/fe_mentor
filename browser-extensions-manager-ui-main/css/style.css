@@ -72,6 +72,11 @@ body {
   color: var(--color-text-sub);
 }
 
+button:focus {
+  outline: 3px solid var(--red-700);
+  outline-offset: 2px;
+}
+
 .card-extension {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -115,6 +120,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.toggle-switch:focus {
+  outline: 3px solid var(--red-500);
+  outline-offset: 2px;
 }
 
 .btn-remove {
@@ -212,9 +222,9 @@ body {
   .card {
     margin-top: 32px;
   }
+}
 
-  /* .btn-status button {
-    width: 100%;
-    max-width: 200px;
-  } */
+button[data-is-select="true"]{
+  background-color: var(--bg-button-selected);
+  color: var(--color-button-selected);
 }
