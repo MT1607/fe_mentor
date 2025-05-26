@@ -80,7 +80,7 @@ button:focus {
 .card-extension {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 
 .card {
@@ -197,6 +197,8 @@ button:focus {
 
   body {
     width: fit-content;
+    height: fit-content;
+
     display: flex;
     flex-direction: column;
 
@@ -204,7 +206,9 @@ button:focus {
   }
 
   .card-extension {
+    display: grid;
     grid-template-columns: 1fr;
+    gap: 1px;
   }
 
   .btn-group {
