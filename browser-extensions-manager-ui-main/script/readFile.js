@@ -17,7 +17,7 @@ function renderCards(data) {
         </div>
       </div>
       <div class="toggle">
-        <button class="btn-remove">Remove</button>
+        <button class="btn-remove" onclick="openModal()">Remove</button>
         <label class="toggle-switch">
           <input type="checkbox" ${item.isActive ? "checked" : ""}>
           <span class="slider"></span>
