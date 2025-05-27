@@ -39,4 +39,5 @@ function changeThemeBtnIcon() {
     icon.src = "assets/images/icon-sun.svg";
   }
 }
+
   
