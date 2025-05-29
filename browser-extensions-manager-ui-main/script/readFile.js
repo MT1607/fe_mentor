@@ -30,7 +30,7 @@ function renderCards(data) {
 }
 
 // Fetch dữ liệu ban đầu
-fetch("data.json")
+fetch("browser-extensions-manager-ui-main/data.json")
   .then((res) => res.json())
   .then((data) => {
     allExtensions = data; // lưu toàn bộ
