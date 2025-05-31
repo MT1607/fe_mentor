@@ -52,7 +52,7 @@ function filterButtons() {
             const value = btn.value;
 
             if (value === "0") {
-                renderCards(allExtensions); // All
+                renderCards(allExtensions);
             } else if (value === "1") {
                 renderCards(allExtensions.filter(ext => ext.isActive)); // Active
             } else if (value === "2") {
